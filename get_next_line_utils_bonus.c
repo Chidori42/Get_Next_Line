@@ -1,20 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   get_next_line_utils.c                              :+:      :+:    :+:   */
+/*   get_next_line_utils_bonus.c                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ael-fagr <ael-fagr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/12/08 01:10:09 by ael-fagr          #+#    #+#             */
-/*   Updated: 2023/12/28 01:38:24 by ael-fagr         ###   ########.fr       */
+/*   Created: 2023/12/16 16:06:03 by ael-fagr          #+#    #+#             */
+/*   Updated: 2023/12/28 01:10:02 by ael-fagr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "get_next_line_bonus.h"
 
 size_t	ft_strlen(char *s)
 {
-	const char	*p;
+	char	*p;
 
 	p = s;
 	if (!s)
